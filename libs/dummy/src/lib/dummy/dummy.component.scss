@@ -1,0 +1,12 @@
+.one {
+  background-color: var(--dummy-color);
+}
+
+@import "../../../assets/theming";
+//@import "~dummy/assets/theming";
+//@import "../../apps/client/src/styles";
+
+.two {
+  @include setup();
+  background-color: $bg;
+}
