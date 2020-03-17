@@ -1,11 +1,7 @@
-body {
-  --bg-color: yellow;
-}
-
 $bg: var(--bg-color);
 
-@mixin setup() {
+@mixin setup($val) {
   body {
-    --bg-color: red;
+    --bg-color: $val;
   }
 }
